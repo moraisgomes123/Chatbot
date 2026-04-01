@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VmHstq9wLS4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\morai\\OneDrive\\Desktop\\Programming C#\\Chatbot1\\Chatbot1\\Chatbot1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\morai\\.nuget\\packages\\naudio\\2.3.0\\naudio.2.3.0.nupkg.sha512",
+    "C:\\Users\\morai\\.nuget\\packages\\naudio.asio\\2.3.0\\naudio.asio.2.3.0.nupkg.sha512",
+    "C:\\Users\\morai\\.nuget\\packages\\naudio.core\\2.3.0\\naudio.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\morai\\.nuget\\packages\\naudio.midi\\2.3.0\\naudio.midi.2.3.0.nupkg.sha512",
+    "C:\\Users\\morai\\.nuget\\packages\\naudio.wasapi\\2.3.0\\naudio.wasapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\morai\\.nuget\\packages\\naudio.winmm\\2.3.0\\naudio.winmm.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "Keyword": "password",
+    "Reply": "Use strong passwords with a mix of uppercase, lowercase, numbers, and symbols."
+  },
+  {
+    "Keyword": "weak password",
+    "Reply": "Avoid simple passwords like 123456 or your name. Use a password manager instead."
+  },
+  {
+    "Keyword": "phishing",
+    "Reply": "Phishing is when attackers trick you into revealing personal information through fake emails or websites."
+  },
+  {
+    "Keyword": "email scam",
+    "Reply": "Always verify the sender's email address and avoid clicking suspicious links."
+  },
+  {
+    "Keyword": "malware",
+    "Reply": "Malware is malicious software designed to harm or exploit your system."
+  },
+  {
+    "Keyword": "virus",
+    "Reply": "A virus is a type of malware that spreads by attaching itself to files."
+  },
+  {
+    "Keyword": "antivirus",
+    "Reply": "Install trusted antivirus software and keep it updated to protect your system."
+  },
+  {
+    "Keyword": "vpn",
+    "Reply": "A VPN encrypts your internet connection and protects your privacy online."
+  },
+  {
+    "Keyword": "firewall",
+    "Reply": "A firewall monitors incoming and outgoing network traffic and blocks threats."
+  },
+  {
+    "Keyword": "hacker",
+    "Reply": "Hackers are individuals who exploit system vulnerabilities. Ethical hackers help improve security."
+  },
+  {
+    "Keyword": "encryption",
+    "Reply": "Encryption converts data into a secure format that only authorized users can read."
+  },
+  {
+    "Keyword": "data breach",
+    "Reply": "A data breach occurs when sensitive information is accessed without authorization."
+  },
+  {
+    "Keyword": "two factor",
+    "Reply": "Two-factor authentication adds an extra layer of security beyond your password."
+  },
+  {
+    "Keyword": "2fa",
+    "Reply": "2FA requires something you know (password) and something you have (phone/code)."
+  },
+  {
+    "Keyword": "social engineering",
+    "Reply": "Social engineering tricks people into giving away confidential information."
+  },
+  {
+    "Keyword": "spam",
+    "Reply": "Spam emails are unwanted messages, often used to spread malware or scams."
+  },
+  {
+    "Keyword": "ransomware",
+    "Reply": "Ransomware locks your files and demands payment to restore access."
+  },
+  {
+    "Keyword": "backup",
+    "Reply": "Always back up your data regularly to avoid data loss from attacks."
+  },
+  {
+    "Keyword": "cloud security",
+    "Reply": "Use strong authentication and encryption when storing data in the cloud."
+  },
+  {
+    "Keyword": "public wifi",
+    "Reply": "Avoid accessing sensitive information on public Wi-Fi without a VPN."
+  },
+  {
+    "Keyword": "identity theft",
+    "Reply": "Identity theft happens when someone uses your personal data fraudulently."
+  },
+  {
+    "Keyword": "update",
+    "Reply": "Keep your system and software updated to fix security vulnerabilities."
+  },
+  {
+    "Keyword": "patch",
+    "Reply": "Security patches fix bugs and vulnerabilities in software."
+  },
+  {
+    "Keyword": "authentication",
+    "Reply": "Authentication verifies your identity before granting access."
+  },
+  {
+    "Keyword": "authorization",
+    "Reply": "Authorization determines what actions you are allowed to perform."
+  },
+  {
+    "Keyword": "cyber attack",
+    "Reply": "A cyber attack is an attempt to damage or gain unauthorized access to systems."
+  },
+  {
+    "Keyword": "brute force",
+    "Reply": "Brute force attacks try many password combinations until one works."
+  },
+  {
+    "Keyword": "ddos",
+    "Reply": "A DDoS attack floods a system with traffic to make it unavailable."
+  },
+  {
+    "Keyword": "botnet",
+    "Reply": "A botnet is a network of infected devices controlled by attackers."
+  },
+  {
+    "Keyword": "keylogger",
+    "Reply": "A keylogger records your keystrokes to steal sensitive information."
+  },
+  {
+    "Keyword": "spyware",
+    "Reply": "Spyware secretly monitors your activities without your consent."
+  },
+  {
+    "Keyword": "trojan",
+    "Reply": "A Trojan disguises itself as legitimate software to trick users."
+  },
+  {
+    "Keyword": "worm",
+    "Reply": "A worm spreads automatically across networks without user interaction."
+  },
+  {
+    "Keyword": "secure website",
+    "Reply": "Look for HTTPS and a padlock icon before entering sensitive data."
+  },
+  {
+    "Keyword": "https",
+    "Reply": "HTTPS encrypts communication between your browser and websites."
+  },
+  {
+    "Keyword": "cookies",
+    "Reply": "Cookies store information about your browsing session."
+  },
+  {
+    "Keyword": "privacy",
+    "Reply": "Protect your privacy by limiting the personal information you share online."
+  },
+  {
+    "Keyword": "cybersecurity",
+    "Reply": "Cybersecurity protects systems, networks, and data from digital attacks."
+  },
+  {
+    "Keyword": "threat",
+    "Reply": "A threat is any potential danger that can exploit a vulnerability."
+  },
+  {
+    "Keyword": "vulnerability",
+    "Reply": "A vulnerability is a weakness that can be exploited by attackers."
+  },
+  {
+    "Keyword": "risk",
+    "Reply": "Risk is the potential for loss or damage when a threat exploits a vulnerability."
+  },
+  {
+    "Keyword": "penetration testing",
+    "Reply": "Pen testing simulates attacks to find system weaknesses."
+  },
+  {
+    "Keyword": "ethical hacking",
+    "Reply": "Ethical hackers test systems to improve security."
+  },
+  {
+    "Keyword": "security policy",
+    "Reply": "A security policy defines rules and practices to protect systems."
+  },
+  {
+    "Keyword": "access control",
+    "Reply": "Access control restricts who can access resources."
+  },
+  {
+    "Keyword": "biometrics",
+    "Reply": "Biometrics use fingerprints or facial recognition for authentication."
+  },
+  {
+    "Keyword": "zero day",
+    "Reply": "A zero-day exploit targets vulnerabilities before they are fixed."
+  },
+  {
+    "Keyword": "insider threat",
+    "Reply": "An insider threat comes from someone within the organization."
+  },
+  {
+    "Keyword": "log monitoring",
+    "Reply": "Monitoring logs helps detect suspicious activities."
+  },
+  {
+    "Keyword": "incident response",
+    "Reply": "Incident response is how organizations handle security breaches."
+  },
+  {
+    "Keyword": "digital signature",
+    "Reply": "Digital signatures verify the authenticity of digital messages."
+  },
+  {
+    "Keyword": "certificate",
+    "Reply": "Security certificates confirm a website's identity."
+  },
+  {
+    "Keyword": "dark web",
+    "Reply": "The dark web is a hidden part of the internet often used anonymously."
+  },
+  {
+    "Keyword": "cybercrime",
+    "Reply": "Cybercrime involves illegal activities conducted online."
+  },
+  {
+    "Keyword": "online safety",
+    "Reply": "Avoid sharing personal details and use strong passwords to stay safe online."
+  }
+]
