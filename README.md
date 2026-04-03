@@ -68,6 +68,21 @@ To customize the bot's knowledge, edit the `Data/responses.json` file following 
   }
 ]
 ```
+## 🛠️ Technologies Used
+
+- C#
+- .NET 8
+- GitHub Actions (CI/CD)
+- JSON (for response storage)
+
+  ## ⚙️ CI/CD Integration
+
+This project uses **GitHub Actions** for Continuous Integration.
+
+✔ Automatically:
+- Restores dependencies  
+- Builds the project  
+- Runs tests  
 
 ---
 
@@ -79,3 +94,10 @@ To customize the bot's knowledge, edit the `Data/responses.json` file following 
 4.  **Exit**: Type `exit` to close the application safely.
 
 > **Note**: This project requires the **NAudio** NuGet package to be installed for the voice greeting feature to function.
+
+
+<img width="1362" height="370" alt="Screenshot 2026-04-03 164741" src="https://github.com/user-attachments/assets/9e4a54ce-8adc-4e87-bc1f-0f0d0281cb84" />
+
+<img width="1873" height="730" alt="Screenshot 2026-04-03 174355" src="https://github.com/user-attachments/assets/bb05baff-2f0a-44c9-8720-e34f52187128" />
+
+
