@@ -1,4 +1,4 @@
-﻿using CybersecurityChatbot.Services;
+using CybersecurityChatbot.Services;
 using CybersecurityChatbot.Utilities;
 
 namespace CybersecurityChatbot.Chatbot
@@ -10,7 +10,7 @@ namespace CybersecurityChatbot.Chatbot
 
         public ChatbotEngine(ResponseService service)
         {
-            _service = service;
+            _service = service ?? throw new ArgumentNullException(nameof(service));
         }
 
         public void Start()
@@ -25,20 +25,26 @@ namespace CybersecurityChatbot.Chatbot
             while (true)
             {
                 UIFormatter.PrintUserPrompt();
-                string input = Console.ReadLine();
 
-                if (!InputValidator.IsValid(input))
+                // Prevent null input
+                string input = Console.ReadLine() ?? "";
+
+                // Validate safely
+                if (string.IsNullOrWhiteSpace(input) || !InputValidator.IsValid(input))
                 {
                     UIFormatter.PrintBot("Invalid input.");
                     continue;
                 }
 
-                if (input.ToLower() == "exit")
+                // Safe exit check
+                if (input.Equals("exit", StringComparison.OrdinalIgnoreCase))
                     break;
 
+                // Store context safely
                 _context.LastTopic = input;
 
-                string response = _service.GetResponse(input);
+                // Ensure response is never null
+                string response = _service.GetResponse(input) ?? "Sorry, I don't understand.";
                 UIFormatter.PrintBot(response);
             }
         }
