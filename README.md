@@ -3,6 +3,29 @@
 A modular, console-based C# application designed to educate users on cybersecurity through an interactive interface. The system features keyword-based response matching, context tracking, and audio capabilities.
 
 ---
+## Project Structure
+
+CybersecurityChatbot/
+├── Program.cs
+├── Chatbot/
+│   ├── ChatbotEngine.cs
+│   ├── VoiceGreeting.cs
+│   ├── AsciiArt.cs
+│ ├── ConversationContext.
+│   └── UIFormatter.cs
+├── Models/
+│   └── Response.cs
+├── Services/
+│ ├──JsonResponseLoader.cs
+│   └── ResponseService.cs
+├── Audio/
+│   └── greeting.wav
+|──Utilities/
+|├──InputValidator.cs
+|-----README.FILE 
+└── .github/
+    └── workflows/
+        └── dotnet.yml
 
 ## 🏗️ System Architecture
 
