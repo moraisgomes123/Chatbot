@@ -1,7 +1,7 @@
-﻿namespace CybersecurityChatbot.Chatbot
+namespace CybersecurityChatbot.Chatbot
 {
     public class ConversationContext
     {
-        public string LastTopic { get; set; }
+        public string LastTopic { get; set; } = "";
     }
 }
