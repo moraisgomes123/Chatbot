@@ -1,4 +1,4 @@
-﻿using CybersecurityChatbot.Models;
+using CybersecurityChatbot.Models;
 using System.Linq;
 using System.Text.RegularExpressions;
 
