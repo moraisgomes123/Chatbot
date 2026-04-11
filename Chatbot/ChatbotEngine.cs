@@ -22,15 +22,15 @@ namespace CybersecurityChatbot.Chatbot
         public void Start()
         {
             Console.WriteLine("Initializing Cybersecurity Chatbot...\n");
-            // 🔊 Play greeting audio
+            //  Play greeting audio
             new VoiceGreeting().PlayGreeting();
 
-            // 🎨 Display ASCII banner
+            //  Display ASCII banner
             AsciiArt.Show();
 
             Console.WriteLine("\nType 'exit' to quit.\n");
 
-            // 👤 Ask user for their name
+            //  Ask user for their name
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Please enter your name: ");
             Console.ResetColor();
@@ -47,14 +47,14 @@ namespace CybersecurityChatbot.Chatbot
             // Store name in context
             _context.UserName = userName;
 
-            // 🎉 Display welcome message
+            //  Display welcome message
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"\nWelcome, {userName}!");
             Console.ResetColor();
 
             Console.WriteLine("\nWhat do you want to know?\n");
 
-            // 🔁 Main chatbot loop
+            //  Main chatbot loop
             while (true)
             {
                 // Show user prompt with their name
